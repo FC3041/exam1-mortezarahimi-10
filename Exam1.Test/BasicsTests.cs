@@ -112,8 +112,6 @@ public class BasicsTests
     [TestMethod]
     public void Q4_Person_AllCases()
     {
-        Assert.Inconclusive();
-/*
         // Case 1: typical name and age
         {
             var p = new Q4Person("Alice", 30);
@@ -135,7 +133,6 @@ public class BasicsTests
                 p.Introduce()
             );
         }
-        */
     }      
 
     [TestMethod]
