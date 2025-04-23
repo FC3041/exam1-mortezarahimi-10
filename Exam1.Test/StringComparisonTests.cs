@@ -37,8 +37,6 @@ public class StringComparisonTests
     [TestMethod]
     public void Q9_ComparableStringOperators_Test()
     {
-        Assert.Inconclusive();
-/*
         // prepare wrappers
         var a1 = new Q8ComparableString("a");
         var b2 = new Q8ComparableString("bb");
@@ -64,6 +62,5 @@ public class StringComparisonTests
         Assert.IsFalse(c > a1);
         Assert.IsTrue(a1 > c);
         Assert.IsFalse(a1 < c);
-        */
     }
 }
