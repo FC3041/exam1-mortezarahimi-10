@@ -10,9 +10,7 @@ public class StringComparisonTests
     [TestMethod]
     public void Q8_StringLengthComparer_Test()
     {        
-        Assert.Inconclusive();
-
-/*        var comparer = new Q8StringLengthComparer();
+        var comparer = new Q8StringLengthComparer();
 
         // null handling
         Assert.IsTrue(comparer.Compare(null, "") < 0);
@@ -34,7 +32,6 @@ public class StringComparisonTests
             new[] { null, "app", "pie",  "kiwi", "apple", "banana" },
             arr
         );
-        */
     }
 
     [TestMethod]
