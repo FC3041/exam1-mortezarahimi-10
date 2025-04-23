@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+
 namespace Exam1.Test;
 
 [TestClass]
@@ -139,17 +141,12 @@ public class BasicsTests
     [ExpectedException(typeof(InvalidOperationException))]
     public void Q5_IsThrowing()
     {
-        Assert.Inconclusive();
-/*
         Basics.Q5TryCatchFinally(true, new List<string>(), true);
-        */
     }
 
    [TestMethod]
     public void Q5_TryCatchFinally_AllCases()
     {
-        Assert.Inconclusive();
-/*
         // Case 1: shouldThrow = false → Try → AfterTry → Finally
         {
             var log = new List<string>();
@@ -171,7 +168,6 @@ public class BasicsTests
                 "When shouldThrow is true, expect Try → Catch → Finally"
             );
         }
-        */
     }    
 
     [TestMethod]
