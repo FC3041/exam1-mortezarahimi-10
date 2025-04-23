@@ -6,8 +6,7 @@ public class Q10StrategyTests
     [TestMethod]
     public void Q10_PricingStrategy_AllCases()
     {
-        Assert.Inconclusive();
-/*        var engine = new PricingEngine(new NoDiscountStrategy());
+        var engine = new PricingEngine(new NoDiscountStrategy());
 
         // NoDiscountStrategy
         Assert.AreEqual(100.0, engine.CalculatePrice(100.0), 1e-9, "No discount should return the base price");
@@ -47,6 +46,5 @@ public class Q10StrategyTests
         // Negative base price with a discount
         engine.SetStrategy(new PercentageDiscountStrategy(0.10));
         Assert.AreEqual(-90.0, engine.CalculatePrice(-100.0), 1e-9, "10% off of -100 should be -90");
-*/
     }
 }
