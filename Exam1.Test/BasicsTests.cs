@@ -26,8 +26,6 @@ public class BasicsTests
     [TestMethod]
     public void Q2_MultiplyAndReset_AllCases()
     {
-        Assert.Inconclusive();
-/*
         // Case 1: normal values
         {
             int v = 3, f = 5;
@@ -67,7 +65,6 @@ public class BasicsTests
             Assert.AreEqual(1_000_000, v);
             Assert.AreEqual(1, f);
         }
-        */
     }
 
 /* Uncomment Before attempting Q3
