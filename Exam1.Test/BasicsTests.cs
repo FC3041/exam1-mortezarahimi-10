@@ -173,8 +173,6 @@ public class BasicsTests
     [TestMethod]
     public void Q6_Temperature_AllCases()
     {
-        Assert.Inconclusive();
-/*
         var temp = new Q6Temperature();
 
         // Case 1: set Celsius → Fahrenheit
@@ -200,7 +198,6 @@ public class BasicsTests
         // Case 5: arbitrary value
         temp.Celsius = 37.0;
         Assert.AreEqual(98.6, temp.Fahrenheit,  1e-6, "37°C should be approximately 98.6°F");
-        */
     }    
     [TestMethod]
     public void Q7_Shapes_AllCases()
