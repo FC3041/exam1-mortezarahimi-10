@@ -202,8 +202,6 @@ public class BasicsTests
     [TestMethod]
     public void Q7_Shapes_AllCases()
     {
-        Assert.Inconclusive();
-/*
         // --- Circle: radius = 2.0 ---
         var c = new Q7Circle(2.0);
         Assert.AreEqual(Math.PI * 4.0,     c.GetArea(),      1e-6, "Circle area");
@@ -221,6 +219,5 @@ public class BasicsTests
         };
         double total = ShapeUtils.Q7TotalArea(shapes);
         Assert.AreEqual(Math.PI + 10.0, total, 1e-6, "Total area");
-        */
     }    
 }
