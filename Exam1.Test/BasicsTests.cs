@@ -6,8 +6,6 @@ public class BasicsTests
     [TestMethod]
     public void Q1_AddTest()
     {
-        Assert.Inconclusive();
-/*
         // Test Case 1: Two positive numbers
         Assert.AreEqual(8, Q1_Add.Add(5, 3));
 
@@ -22,7 +20,6 @@ public class BasicsTests
 
         // Test Case 5: Two zeros
         Assert.AreEqual(0, Q1_Add.Add(0, 0));
-        */
     }
 
 
