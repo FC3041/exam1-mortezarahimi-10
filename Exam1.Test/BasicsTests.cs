@@ -67,7 +67,6 @@ public class BasicsTests
         }
     }
 
-/* Uncomment Before attempting Q3
     static void Q3Increment(Type1 t1, Type2 t2)
     {
         // value‐type: incrementing the copy → no persistence
@@ -75,15 +74,9 @@ public class BasicsTests
         // reference‐type: incrementing the instance → persists
         t2.Count += 1;
     }
-*/
     [TestMethod]
     public void Q3_Increment_AllCases()
     {
-        Assert.Inconclusive();
-
-        // !!!! Uncomment the Q3Increment method above before running this test !!!!
-
-    /*
         // Case 1: both start at 0
         {
             var t1 = new Type1 { Count = 0 };
@@ -110,7 +103,6 @@ public class BasicsTests
             Assert.AreEqual(-2, t1.Count);
             Assert.AreEqual(-1, t2.Count);
         }
-        */
     }  
 
     
